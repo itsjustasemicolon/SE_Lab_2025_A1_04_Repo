@@ -1,8 +1,19 @@
+# Project: Inventory Management System with Git  
+#  
+# Description:  
+# This project is an Inventory Management System. The main code has been developed by the code creator,  
+# while database preparation was assisted by two contributors.  
+#  
+# Team Members:  
+# 1. Code developed by:  
+#    - Name: Sarbo Sarcar (Roll No: 002311001011)  
+#  
+# 2. Database Contributors:  
+#    - Name: Anuska Nath (Roll No: 002311001003)  
+#    - Name: Soham Das (Roll No: 002311001004)  
+
+
 import sqlite3
-
-file = "inventory.db"
-
-prod = {}
 
 def create_db():
     conn = sqlite3.connect("inventory.db")
