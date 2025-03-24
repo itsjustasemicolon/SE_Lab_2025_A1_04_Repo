@@ -1,4 +1,4 @@
-# Project: CLI Tools with Git  
+# Project: Task Management CLI Tool with Git  
 #  
 # Description:  
 # This project is a command-line task management tool. The main code has been developed by the code creator,  
