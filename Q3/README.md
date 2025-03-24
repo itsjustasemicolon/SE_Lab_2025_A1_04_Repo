@@ -26,8 +26,7 @@ git clone https://github.com/itsjustasemicolon/SE_Lab_2025_A1_04.git
 
 2. Navigate to project directory:
 ```bash
-cd SE_Lab_2025_A1_04
-cd Q3
+ cd .\SE_Lab_2025_A1_04\Q3
 ```
 
 3. Run the application:
