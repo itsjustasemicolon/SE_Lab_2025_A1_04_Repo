@@ -20,3 +20,6 @@ This assignment focuses on implementing version control using Git across three d
 
 Each system demonstrates the practical application of Git for version control in different contexts.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
