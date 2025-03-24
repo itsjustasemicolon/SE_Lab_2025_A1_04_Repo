@@ -4,7 +4,7 @@ This repository contains the solution for Assignment 1 of the Software Engineeri
 
 ## Files
 
-- `cli-tools.py`: Main Python script with CLI interface
+- `task_management.py`: Main Python script with CLI interface
 - `tasks.db`: SQLite database (automatically created on first run)
 - `database_schema.sql`: Database schema
 
@@ -32,8 +32,8 @@ cd Q3
 
 3. Run the application:
 ```bash
-python3 cli-tools.py    # Linux/MacOS
-py cli-tools.py         # Windows
+python3 task_management.py    # Linux/MacOS
+py task_management.py         # Windows
 ```
 
 ## Usage
