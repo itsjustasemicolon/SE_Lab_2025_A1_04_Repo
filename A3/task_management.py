@@ -1,7 +1,7 @@
 # Project: Task Management CLI Tool with Git  
 #  
 # Description:  
-# This project is a command-line task management tool. The main code has been developed by the code creator,  
+# This project is a command-line task management tool. The main code has been developed by the code creator, 
 # while database preparation was assisted by two contributors.  
 #  
 # Team Members:  
