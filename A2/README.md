@@ -52,4 +52,4 @@ marks (
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE]([LICENSE](https://github.com/itsjustasemicolon/SE_Lab_2025_A1_04_Repo/blob/8b30da4890579d80d54429e9182bf5352136df45/LICENSE)) file for details.
