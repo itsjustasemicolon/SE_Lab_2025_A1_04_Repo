@@ -1,7 +1,7 @@
 # Project: Marks Management System with Git 
 #  
 # Description:  
-# This project is a command-line marks management tool. The main code has been developed by the code creator, 
+# This project is a command-line marks management system. The main code has been developed by the code creator, 
 # while database preparation was assisted by two contributors.  
 #  
 # Team Members:  
