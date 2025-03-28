@@ -1,3 +1,17 @@
+# Project: Marks Management System with Git 
+#  
+# Description:  
+# This project is a command-line marks management tool. The main code has been developed by the code creator, 
+# while database preparation was assisted by two contributors.  
+#  
+# Team Members:  
+# 1. Code developed by:  
+#    - Name: Anuska Nath (Roll No: 002311001003)  
+#  
+# 2. Database Contributors:  
+#    - Name: Soham Das (Roll No: 002311001004)  
+#    - Name: Sarbo Sarcar (Roll No: 002311001011)
+
 import sqlite3
 
 def initialize_database():
@@ -70,12 +84,12 @@ def sort_database():
     return result
 
 def display_students(students):
-    print("\n{:<12} {:<20} {:<12} {:<12} {:<12} {:<12}".format(
+    print("\n{:<12} | {:<16} | {:<15} | {:<15} | {:<15} | {:<15}".format(
         "Roll Number", "Name", "Math Marks", "Science Marks", "English Marks", "Total Marks"))
-    print("-" * 80)
+    print("-" * 100)
 
     for student in students:
-        print("{:<12} {:<20} {:<12} {:<12} {:<12} {:<12}".format(*student))
+        print("{:<12} | {:<16} | {:<15} | {:<15} | {:<15} | {:<15}".format(*student))
     print()
 
 def display_menu():
@@ -102,7 +116,7 @@ def main():
                         tid = input("Enter your teacher id : ").strip().lower()
                         if tid in teachers:
                                 while True:
-                                        roll_number = int(input("Enter roll number of the student: "))
+                                        roll_number = int(input("Enter roll number: "))
                                         res=check_roll_number(roll_number)
                                         if res==True:
                                                 break
