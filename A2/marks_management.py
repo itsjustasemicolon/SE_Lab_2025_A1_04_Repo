@@ -102,7 +102,7 @@ def main():
                         tid = input("Enter your teacher id : ").strip().lower()
                         if tid in teachers:
                                 while True:
-                                        roll_number = int(input("Enter roll number: "))
+                                        roll_number = int(input("Enter roll number of the student: "))
                                         res=check_roll_number(roll_number)
                                         if res==True:
                                                 break
