@@ -240,6 +240,6 @@ def main():
     print("Exiting...")
 
 if __name__ == "__main__":
-    create_db()
+    #create_db()
     display_intro()
     main()
