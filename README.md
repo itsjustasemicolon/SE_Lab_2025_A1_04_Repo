@@ -7,9 +7,9 @@ This repository contains implementations of three different systems developed as
 
 | Name | Roll Number | Question |
 |------|------------|----------|
-| Sarbo Sarcar | 002311001011 | Q1: Inventory Management System |
-| Anuska Nath | 002311001003 | Q2: Marks Management System |
-| Soham Das (L) | 002311001004 | Q3: Task Management CLI Tool |
+| Sarbo Sarcar | 002311001011 | A1: Inventory Management System |
+| Anuska Nath | 002311001003 | A2: Marks Management System |
+| Soham Das (L) | 002311001004 | A3: Task Management CLI Tool |
 
 ## Project Overview
 
