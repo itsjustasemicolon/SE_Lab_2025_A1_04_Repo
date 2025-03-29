@@ -113,16 +113,18 @@ def main():
                         print("Student added successfully.")
 
                 elif choice == '2':
-                        tid = input("Enter your teacher id : ").strip().lower()
+                        tid = input("Enter your teacher id [t1 / t2 / t3]: ").strip().lower()
                         if tid in teachers:
                                 while True:
                                         roll_number = int(input("Enter roll number: "))
                                         res=check_roll_number(roll_number)
                                         if res==True:
-                                                break
-                                marks = int(input("Enter marks for " + teachers[tid] + ": "))
-                                update_marks(roll_number, teachers[tid], marks)
-                                print("Marks updated successfully.")
+                                                marks = int(input("Enter marks for " + teachers[tid] + ": "))
+                                                update_marks(roll_number, teachers[tid], marks)
+                                                print("Marks updated successfully.")
+                                                f = input("Do you want to enter marks for another student? [yes/no] : ").strip().lower()
+                                                if f == 'no' or f == 'n':
+                                                       break
                         else:
                                 print("Invalid Teacher ID entered. Access Denied")
 
